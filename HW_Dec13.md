@@ -36,6 +36,7 @@ $ tail chipotle.tsv
 <br></br>
 The total number of lines in the data file is 4623 
  <br> </br>
-User@DESKTOP-CPCB3KP MINGW64 ~/Documents/Siddharth/DS_Course
-$ wc -l chipotle.tsv
-4623 chipotle.tsv
+
+'User@DESKTOP-CPCB3KP MINGW64 ~/Documents/Siddharth/DS_Course'
+'$ wc -l chipotle.tsv'
+'4623 chipotle.tsv'
