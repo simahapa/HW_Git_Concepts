@@ -97,8 +97,11 @@ $ grep "Pinto" chipotle_chickenb.tsv| wc -l
 
 <br></br>
 
-Make a list of all of the CSV or TSV files in the [our class repo] (https://github.com/ga-students/DS-SEA-08). repo (using a single command). You will be working on your local repo on your laptop. Think about how wildcard characters can help you with this task.
+Make a list of all of the CSV or TSV files in the  (https://github.com/ga-students/DS-SEA-08). repo (using a single command). You will be working on your local repo on your laptop. Think about how wildcard characters can help you with this task.
+<br></br>
+
 Here is a list of all the csv and TSV files in the class repo
+<br></br>
 `$ find Documents/Siddharth/DS-SEA-08/data -name *.**v
 Documents/Siddharth/DS-SEA-08/data/airlines.csv
 Documents/Siddharth/DS-SEA-08/data/Airline_on_time_west_coast.csv
@@ -163,3 +166,93 @@ $ find . -name *.*sv
 ./data/vehicles_train.csv
 ./data/yelp.csv
 ./notebooks/GMapJson.csv`
+
+
+<br></br>
+4.	Count the approximate number of occurrences of the word "dictionary" (regardless of case) across all files of [our class repo] (https://github.com/ga-students/DS-SEA-8).
+The approximate number of matches is #79 
+
+`$ grep -r -i "dictionary" .|wc -l
+79`
+
+The ones in capital are also included below 
+
+`./DS-SEA-08/code/00_file_reading.py:4. BONUS: Create a dictionary in which the key is the airline name (without the star)
+./DS-SEA-08/code/05_api.py:# decode the JSON response body into a dictionary
+./DS-SEA-08/code/05_api.py:# extracting the year from the dictionary
+./DS-SEA-08/code/05_web_scraping.py:First, define a function that accepts an IMDb ID and returns a dictionary of
+./DS-SEA-08/code/05_web_scraping.py:a list in which each element is a dictionary of movie information.
+./DS-SEA-08/code/05_web_scraping.py:# define a function that accepts an IMDb ID and returns a dictionary of movie information
+./DS-SEA-08/code/09_lambda_comprehension.py:# dictionary comprehension
+./DS-SEA-08/code/99_pandas.py:    data dictionary: http://files.grouplens.org/datasets/movielens/ml-100k-README.txt
+./DS-SEA-08/code/99_pandas.py:# create a DataFrame from a dictionary
+./DS-SEA-08/data/rt_critics.csv:Janet Maslin,rotten,111418.0,New York Times,The film is so proud of its alleged daring that it even begins with a dictionary definition of the word 'deviant.' 'Sitcom' would have been more like it.,2003-05-20,14629.0,Threesome
+./DS-SEA-08/data/sms.tsv:ham    There generally isn't one. It's an uncountable noun - u in the dictionary. pieces of research?
+./DS-SEA-08/data/sms.tsv:ham    1) Go to write msg 2) Put on ` ### Dictionary### `mode 3)Cover the screen with hand, 4)Press  &lt;#&gt; . 5)Gently remove Ur hand.. Its interesting..:)
+./DS-SEA-08/data/sms.tsv:ham    1) Go to write msg 2) Put on` ### Dictionary ### `mode 3)Cover the screen with hand, 4)Press  &lt;#&gt; . 5)Gently remove Ur hand.. Its interesting..:)
+./DS-SEA-08/data/sms.tsv:ham    1) Go to write msg 2) Put on` ### Dictionary ### ` mode 3)Cover the screen with hand, 4)Press  &lt;#&gt; . 5)Gently remove Ur hand.. Its interesting..:)
+./DS-SEA-08/data/yelp.csv:    Our photographer was wonderful. She seemed to enjoy her job and have fun with client's ideas. However the person who helped us pick out which cards to choose was not having any of it. If you looked up awkward in the dictionary and smacked them upside the head that's what it felt like. Her sheer agony of working there oozed out from her forced smile.
+./DS-SEA-08/data/yelp.json:{"votes": {"funny": 1, "useful": 2, "cool": 1}, "user_id": "RwVaQNP1Ag-Seu3U9quGAg", "review_id": "6jV77Bs_Vu_rHkdUxu9JLQ", "stars": 3, "date": "2011-02-23", "text": "This review is for the JCPenny portrait studio responsible for the \"Christmas Blessings\" Christmas card that graced my family's and co-worker's mailboxes this past holiday season. \n\n    My girlfriend and I were going for a \"Step Brothers\" pose so we had to look the part. I guess the look won't be in any Vogue or GQ magazine this year. No, you'll have to go back to the time when Circus Magazine was popular and when mom and dad went to key parties. \n    \n    Our photographer was wonderful. She seemed to enjoy her job and have fun with client's ideas. However the person who helped us pick out which cards to choose was not having any of it. If you looked up awkward in the dictionary and smacked them upside the head that's what it felt like. Her sheer agony of working there oozed out from her forced smile. \n\n   Anyways, I'll just say that I am damn happy I had a coupon for a $30 package which included two 8x10s of different poses and a whompin' helping of greeting cards. A package that retails at about $170. \n\n   And no, even if you pay that price,  a happy ending is not included.", "type": "review", "business_id": "kwq3bK7BzPKLwXKqVRztHg"}
+./DS-SEA-08/homework/00_python_practice_2.py:# dictionaries are made of key-value pairs (like a real dictionary)
+./DS-SEA-08/homework/00_python_practice_2.py:# use the key to look up a value (fast operation regardless of dictionary size)
+./DS-SEA-08/homework/00_python_practice_2.py:# accessing a list element within a dictionary
+./DS-SEA-08/homework/03_python_homework_chipotle.py:PART 6: Create a dictionary in which the keys represent chip orders and
+./DS-SEA-08/homework/04_command_line_chipotle.md:7. Count the approximate number of occurrences of the word "dictionary" (regardless of case) across all files of [our class repo] (https://github.com/ga-students/DS-SEA-8).
+./DS-SEA-08/homework/06_yelp_votes_homework.ipynb:    "# each row is decoded into a dictionary named \"data\" using using json.loads()\n",
+./DS-SEA-08/notebooks/.ipynb_checkpoints/03_correlation_exercise_ice_cream_and_car_data-checkpoint.ipynb:    "* [View the ice cream consumption data set data dictionary](https://vincentarelbundock.github.io/Rdatasets/doc/Ecdat/Icecream.html)"
+./DS-SEA-08/notebooks/.ipynb_checkpoints/03_correlation_exercise_ice_cream_and_car_data-checkpoint.ipynb:    "* [View the Car Road Tests dataset data dictionary](https://vincentarelbundock.github.io/Rdatasets/doc/datasets/mtcars.html)"
+./DS-SEA-08/notebooks/.ipynb_checkpoints/06_nba_knn-checkpoint.ipynb:    "- NBA player statistics from 2014-2015 (partial season): [data](../data/NBA_players_2015.csv), [data dictionary](../slides/06_nba_paper.pdf)\n",
+./DS-SEA-08/notebooks/.ipynb_checkpoints/07_linear_regression-checkpoint.ipynb:    "We'll be working with a dataset from Capital Bikeshare that was used in a Kaggle competition ([data dictionary](https://www.kaggle.com/c/bike-sharing-demand/data))."
+./DS-SEA-08/notebooks/.ipynb_checkpoints/09_confusion_matrix-checkpoint.ipynb:    "- Data from Kaggle's Titanic competition: [data](../data/titanic.csv), [data dictionary](https://www.kaggle.com/c/titanic/data)\n",
+./DS-SEA-08/notebooks/.ipynb_checkpoints/09_titanic_logistic_regression_exercise-checkpoint.ipynb:    "- Data from Kaggle's Titanic competition: [data](../data/titanic.csv), [data dictionary](https://www.kaggle.com/c/titanic/data)\n",
+./DS-SEA-08/notebooks/.ipynb_checkpoints/10_bank_exercise-checkpoint.ipynb:    "- Data from the UCI Machine Learning Repository: [data](https://github.com/ga-students/ds-sea-05/blob/master/data/bank-additional.csv), [data dictionary](https://archive.ics.uci.edu/ml/datasets/Bank+Marketing)\n",
+./DS-SEA-08/notebooks/03_correlation_exercise_ice_cream_and_car_data.ipynb:    "* [View the ice cream consumption data set data dictionary](https://vincentarelbundock.github.io/Rdatasets/doc/Ecdat/Icecream.html)"
+./DS-SEA-08/notebooks/03_correlation_exercise_ice_cream_and_car_data.ipynb:    "* [View the Car Road Tests dataset data dictionary](https://vincentarelbundock.github.io/Rdatasets/doc/datasets/mtcars.html)"
+./DS-SEA-08/notebooks/06_nba_knn.ipynb:    "- NBA player statistics from 2014-2015 (partial season): [data](../data/NBA_players_2015.csv), [data dictionary](../slides/06_nba_paper.pdf)\n",
+./DS-SEA-08/notebooks/07_linear_regression.ipynb:    "We'll be working with a dataset from Capital Bikeshare that was used in a Kaggle competition ([data dictionary](https://www.kaggle.com/c/bike-sharing-demand/data))."
+./DS-SEA-08/notebooks/09_confusion_matrix.ipynb:    "- Data from Kaggle's Titanic competition: [data](../data/titanic.csv), [data dictionary](https://www.kaggle.com/c/titanic/data)\n",
+./DS-SEA-08/notebooks/09_titanic_logistic_regression_exercise.ipynb:    "- Data from Kaggle's Titanic competition: [data](../data/titanic.csv), [data dictionary](https://www.kaggle.com/c/titanic/data)\n",
+./DS-SEA-08/notebooks/10_bank_exercise.ipynb:    "- Data from the UCI Machine Learning Repository: [data](https://github.com/ga-students/ds-sea-05/blob/master/data/bank-additional.csv), [data dictionary](https://archive.ics.uci.edu/ml/datasets/Bank+Marketing)\n",
+./DS-SEA-08/notebooks/11_advanced_sklearn.ipynb:    "- Wine dataset from the UCI Machine Learning Repository: [data](http://archive.ics.uci.edu/ml/machine-learning-databases/wine/wine.data), [data dictionary](http://archive.ics.uci.edu/ml/datasets/Wine)\n",
+./DS-SEA-08/notebooks/13_natural_language_processing.ipynb:    "- **Notes:** Uses a dictionary-based approach (slower than stemming)"
+./DS-SEA-08/notebooks/13_natural_language_processing.ipynb:    "    # create a dictionary of words and their TF-IDF scores\n",
+./DS-SEA-08/notebooks/15_bikeshare_exercise.ipynb:    "- Capital Bikeshare dataset from Kaggle: [data](https://github.com/JamesByers/GA-SEA-DAT1/blob/master/data/vehicles_train.csv), [data dictionary](https://www.kaggle.com/c/bike-sharing-demand/data)\n",
+./DS-SEA-08/notebooks/16_ensembling.ipynb:    "- Major League Baseball player data from 1986-87: [data](../data/hitters.csv), [data dictionary](https://cran.r-project.org/web/packages/ISLR/ISLR.pdf) (page 7)\n",
+./DS-SEA-08/other/python_reference:bool({})    # empty dictionary
+./DS-SEA-08/other/python_reference:# create an empty dictionary (two ways)
+./DS-SEA-08/other/python_reference:# create a dictionary (two ways)
+./DS-SEA-08/other/python_reference:# convert a list of tuples into a dictionary
+./DS-SEA-08/other/python_reference:# examine a dictionary
+./DS-SEA-08/other/python_reference:# modify a dictionary (does not return the dictionary)
+./DS-SEA-08/other/python_reference:# accessing a list element within a dictionary
+./DS-SEA-08/other/python_reference:# string substitution using a dictionary
+./DS-SEA-08/other/python_reference:# dictionary comprehension
+./DS-SEA-08/project/README.md:* **Data dictionary (aka "code book"):** description of each variable, including units
+./DS-SEA-08/README.md:* [Descriptions of Statistics terms in a straight forward way](http://stattrek.com/statistics/dictionary.aspx?definition=Probability_density_function) including density plot
+./DS-SEA-08/README.md:* Exercise with NBA player data ([notebook](notebooks/06_nba_knn.ipynb), [data](/data/NBA_players_2015.csv), [data dictionary](/slides/06_nba_paper.pdf))
+./DS-SEA-08/README.md:    * [Data dictionary](https://www.kaggle.com/c/bike-sharing-demand/data)
+./DS-SEA-08/README.md:* Exercise with Titanic data ([notebook](notebooks/09_titanic_logistic_regression_exercise.ipynb), [data](data/titanic.csv), [data dictionary](https://www.kaggle.com/c/titanic/data))
+./DS-SEA-08/README.md:* Exercise with bank marketing data ([notebook](notebooks/10_bank_exercise.ipynb), [data](data/bank-additional.csv), [data dictionary](https://archive.ics.uci.edu/ml/datasets/Bank+Marketing))
+./DS-SEA-08/README.md:* Review solutions to exercise with bank marketing data ([notebook](notebooks/solutions/10_bank_exercise_solutions.ipynb), [data](data/bank-additional.csv), [data dictionary](https://archive.ics.uci.edu/ml/datasets/Bank+Marketing))
+./DS-SEA-08/README.md:* Exercise with Capital Bikeshare data ([notebook](notebooks/15_bikeshare_exercise.ipynb), [data](data/bikeshare.csv), [data dictionary](https://www.kaggle.com/c/bike-sharing-demand/data))
+./DS-SEA-08/README.md:    * [Data dictionary](https://cran.r-project.org/web/packages/ISLR/ISLR.pdf) (see page 7)
+./DS-SEA-08/README.md:    * SMS messages: [data](data/sms.tsv), [data dictionary](https://archive.ics.uci.edu/ml/datasets/SMS+Spam+Collection)
+./DS_course/.ipynb_checkpoints/03_correlation_exercise_ice_cream_and_car_data-checkpoint.ipynb:    "* [View the ice cream consumption data set data dictionary](https://vincentarelbundock.github.io/Rdatasets/doc/Ecdat/Icecream.html)"
+./DS_course/.ipynb_checkpoints/03_correlation_exercise_ice_cream_and_car_data-checkpoint.ipynb:    "* [View the Car Road Tests dataset data dictionary](https://vincentarelbundock.github.io/Rdatasets/doc/datasets/mtcars.html)"
+./DS_course/00_python_practice_2.py:# dictionaries are made of key-value pairs (like a real dictionary)
+./DS_course/00_python_practice_2.py:# use the key to look up a value (fast operation regardless of dictionary size)
+./DS_course/00_python_practice_2.py:# accessing a list element within a dictionary
+./DS_course/00_python_practice_21.py:# dictionaries are made of key-value pairs (like a real dictionary)
+./DS_course/00_python_practice_21.py:# use the key to look up a value (fast operation regardless of dictionary size)
+./DS_course/00_python_practice_21.py:# accessing a list element within a dictionary
+./DS_course/00_python_practice_21SM.py:# dictionaries are made of key-value pairs (like a real dictionary)
+./DS_course/00_python_practice_21SM.py:# use the key to look up a value (fast operation regardless of dictionary size)
+./DS_course/00_python_practice_21SM.py:# accessing a list element within a dictionary
+./DS_course/02_numpy_and_pandas-Copy1.ipynb:    "# this is a dictionary ; gives some keys and values \n",
+./DS_course/03_correlation_exercise_ice_cream_and_car_data.ipynb:    "* [View the ice cream consumption data set data dictionary](https://vincentarelbundock.github.io/Rdatasets/doc/Ecdat/Icecream.html)"
+./DS_course/03_correlation_exercise_ice_cream_and_car_data.ipynb:    "* [View the Car Road Tests dataset data dictionary](https://vincentarelbundock.github.io/Rdatasets/doc/datasets/mtcars.html)"
+./DS_course/03_python_homework_chipotle.py.txt:PART 6: Create a dictionary in which the keys represent chip orders and
+./DS_course/05_api.py:# decode the JSON response body into a dictionary
+./DS_course/05_api.py:# extracting the year from the dictionary
+./DS_course/05_api.py.txt:# decode the JSON response body into a dictionary
+./DS_course/05_api.py.txt:# extracting the year from the dictionary`
