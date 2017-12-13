@@ -15,7 +15,7 @@ This is the HW for the  git concepts undertaken for the GA Data Science Course
 2. How many orders do there appear to be?
 <br>   </br>
 ### Answer:
-There are a  total of 1834 orders; the  command to perform the task is as follows
+*There are a  total of 1834 orders; the  command to perform the task is as follows
 <br>   </br>
 `User@DESKTOP-CPCB3KP MINGW64 ~/Documents/Siddharth/DS_Course
 $ tail chipotle.tsv
@@ -32,12 +32,61 @@ $ tail chipotle.tsv
 
 <br></br>
 
-3. How many lines are in this file?
+### 3. How many lines are in this file?
 <br></br>
-The total number of lines in the data file is 4623 
+### Answer 
+*The total number of lines in the data file is 4623 
  <br> </br>
 
 `User@DESKTOP-CPCB3KP MINGW64 ~/Documents/Siddharth/DS_Course`
 <br></br>
 `$ wc -l chipotle.tsv
 '4623 chipotle.tsv`
+
+
+<br></br>
+
+### 4.	Which burrito is more popular, steak or chicken?
+Steak  has appeared a total of 706 times
+
+`User@DESKTOP-CPCB3KP MINGW64 ~/Documents/Siddharth/DS_Course
+$ grep "Steak" chipotle.tsv|wc -l
+706`
+<br> </br>
+<br> </br>
+Chicken has appeared a total of 1565 times 
+<br> </br>
+<br> </br>
+`User@DESKTOP-CPCB3KP MINGW64 ~/Documents/Siddharth/DS_Course
+$ grep "Chicken" chipotle.tsv|wc -l
+1565`
+
+
+*On the basis of the above results where the chicken burrito appeared a total of 1565 times it is clearly more popular
+
+
+<br></br>
+### 5. Do chicken burritos more often have black beans or pinto beans?
+
+### Answer 
+<br> </br>
+Total instances where chicken burrito was used 
+`User@DESKTOP-CPCB3KP MINGW64 ~/Documents/Siddharth/DS_Course
+$ grep "Chicken Bu*" chipotle.tsv|wc -l
+1279'
+
+
+Total number of instances where Black beans were used is 282 
+'User@DESKTOP-CPCB3KP MINGW64 ~/Documents/Siddharth/DS_Course
+$ grep "Black" chipotle_chickenb.tsv| wc -l
+282`
+
+
+Total number of times Pinto  Beans were used is 105 
+User@DESKTOP-CPCB3KP MINGW64 ~/Documents/Siddharth/DS_Course
+$ grep "Pinto" chipotle_chickenb.tsv| wc -l
+105
+
+
+*Hence, on the basis of the above findings the  chicken burritos have more black beans 
+
