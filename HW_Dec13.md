@@ -10,3 +10,9 @@ This is the HW for the  git concepts undertaken for the GA Data Science Course
 <br> Item_name: refers to what was ordered </br>
 <br> Choice_description: Refers to the customization that  the order requested for by the customer </br>
 <br> Item_price: refers to the price of the item </br>
+<br>  </br>
+<br>  </br>
+2. 1.	How many orders do there appear to be?
+<br>   </br>
+There are a  total of 1834 orders; the  command to perform the task is as follows
+<br>   </br>
