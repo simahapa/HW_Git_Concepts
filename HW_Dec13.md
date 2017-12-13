@@ -17,7 +17,7 @@ This is the HW for the  git concepts undertaken for the GA Data Science Course
 ### Answer:
 There are a  total of 1834 orders; the  command to perform the task is as follows
 <br>   </br>
-User@DESKTOP-CPCB3KP MINGW64 ~/Documents/Siddharth/DS_Course
+''''User@DESKTOP-CPCB3KP MINGW64 ~/Documents/Siddharth/DS_Course
 $ tail chipotle.tsv
 1831    1       Carnitas Bowl   [Fresh Tomato Salsa, [Fajita Vegetables, Rice, Black Beans, Cheese, Sour Cream, Lettuce]]       $9.25
 1831    1       Chips   NULL    $2.15
@@ -28,4 +28,4 @@ $ tail chipotle.tsv
 1833    1       Steak Burrito   [Fresh Tomato Salsa, [Rice, Sour Cream, Cheese, Lettuce, Guacamole]]    $11.75
 1834    1       Chicken Salad Bowl      [Fresh Tomato Salsa, [Fajita Vegetables, Pinto Beans, Guacamole, Lettuce]]      $11.25
 1834    1       Chicken Salad Bowl      [Fresh Tomato Salsa, [Fajita Vegetables, Lettuce]]      $8.75
-1834    1       Chicken Salad Bowl      [Fresh Tomato Salsa, [Fajita Vegetables, Pinto Beans, Lettuce]] $8.75
+1834    1       Chicken Salad Bowl      [Fresh Tomato Salsa, [Fajita Vegetables, Pinto Beans, Lettuce]] $8.75''''
