@@ -1,8 +1,8 @@
 # HW_Git_Concepts
 This is the HW for the  git concepts undertaken for the GA Data Science Course 
-### Please refer to the file HW DS 2  to view the mark down file with the contents of the HW that is due on 12/13
+
 ### Command Line Tasks
-1.	Look at the head and the tail of chipotle.tsv in the data subdirectory of this repo. Think for a minute about how the data is structured. What do you think each column means? What do you think each row means? Tell me! (If you're unsure, look at more of the file contents.);
+### 1.	Look at the head and the tail of chipotle.tsv in the data subdirectory of this repo. Think for a minute about how the data is structured. What do you think each column means? What do you think each row means? Tell me! (If you're unsure, look at more of the file contents.);
 ### Answer:
 <br> Each column refers to the  following : </br>
 <br> Order ID-unique ID of the order   </br>
@@ -12,7 +12,8 @@ This is the HW for the  git concepts undertaken for the GA Data Science Course
 <br> Item_price: refers to the price of the item </br>
 <br>  </br>
 <br>  </br>
-2. How many orders do there appear to be?
+
+### 2. How many orders do there appear to be?
 <br>   </br>
 ### Answer:
 *There are a  total of 1834 orders; the  command to perform the task is as follows
@@ -97,9 +98,11 @@ $ grep "Pinto" chipotle_chickenb.tsv| wc -l
 
 <br></br>
 
-Make a list of all of the CSV or TSV files in the  (https://github.com/ga-students/DS-SEA-08). repo (using a single command). You will be working on your local repo on your laptop. Think about how wildcard characters can help you with this task.
+### 6. Make a list of all of the CSV or TSV files in the  (https://github.com/ga-students/DS-SEA-08). repo (using a single command). You will be working on your local repo on your laptop. Think about how wildcard characters can help you with this task.
 <br></br>
 
+
+### Answer 
 Here is a list of all the csv and TSV files in the class repo
 <br></br>
 `$ find Documents/Siddharth/DS-SEA-08/data -name *.**v
@@ -169,7 +172,7 @@ $ find . -name *.*sv
 
 
 <br></br>
-### 4.	Count the approximate number of occurrences of the word "dictionary" (regardless of case) across all files of [our class repo] (https://github.com/ga-students/DS-SEA-8).
+### 7.	Count the approximate number of occurrences of the word "dictionary" (regardless of case) across all files of [our class repo] (https://github.com/ga-students/DS-SEA-8).
 
 ### Answer 
 ### *The approximate number of matches is #79 
@@ -260,7 +263,7 @@ The ones in capital are also included below
 ./DS_course/05_api.py.txt:# extracting the year from the dictionary`
 
 
-### 5.	Optional: Use the the command line to discover something "interesting" about the Chipotle data. Try using the commands from the "advanced" section!
+### 8.	Optional: Use the the command line to discover something "interesting" about the Chipotle data. Try using the commands from the "advanced" section!
 
 
 ### Answer 
