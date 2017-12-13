@@ -35,7 +35,7 @@ $ tail chipotle.tsv
 ### 3. How many lines are in this file?
 <br></br>
 ### Answer 
-*The total number of lines in the data file is 4623 
+
  <br> </br>
 
 `User@DESKTOP-CPCB3KP MINGW64 ~/Documents/Siddharth/DS_Course`
@@ -44,9 +44,14 @@ $ tail chipotle.tsv
 '4623 chipotle.tsv`
 
 
+### *The total number of lines in the data file is 4623 
+
 <br></br>
 
 ### 4.	Which burrito is more popular, steak or chicken?
+
+
+### Answer
 Steak  has appeared a total of 706 times
 
 `User@DESKTOP-CPCB3KP MINGW64 ~/Documents/Siddharth/DS_Course
@@ -62,7 +67,7 @@ $ grep "Chicken" chipotle.tsv|wc -l
 1565`
 
 
-*On the basis of the above results where the chicken burrito appeared a total of 1565 times it is clearly more popular
+### *On the basis of the above results where the chicken burrito appeared a total of 1565 times it is clearly more popular
 
 
 <br></br>
@@ -73,20 +78,88 @@ $ grep "Chicken" chipotle.tsv|wc -l
 Total instances where chicken burrito was used 
 `User@DESKTOP-CPCB3KP MINGW64 ~/Documents/Siddharth/DS_Course
 $ grep "Chicken Bu*" chipotle.tsv|wc -l
-1279'
+1279`
 
 
 Total number of instances where Black beans were used is 282 
-'User@DESKTOP-CPCB3KP MINGW64 ~/Documents/Siddharth/DS_Course
+`User@DESKTOP-CPCB3KP MINGW64 ~/Documents/Siddharth/DS_Course
 $ grep "Black" chipotle_chickenb.tsv| wc -l
 282`
 
 
 Total number of times Pinto  Beans were used is 105 
-User@DESKTOP-CPCB3KP MINGW64 ~/Documents/Siddharth/DS_Course
+`User@DESKTOP-CPCB3KP MINGW64 ~/Documents/Siddharth/DS_Course
 $ grep "Pinto" chipotle_chickenb.tsv| wc -l
-105
+105`
 
 
-*Hence, on the basis of the above findings the  chicken burritos have more black beans 
+### *Hence, on the basis of the above findings the  chicken burritos have more black beans 
 
+<br></br>
+
+Make a list of all of the CSV or TSV files in the [our class repo] (https://github.com/ga-students/DS-SEA-08). repo (using a single command). You will be working on your local repo on your laptop. Think about how wildcard characters can help you with this task.
+Here is a list of all the csv and TSV files in the class repo
+`$ find Documents/Siddharth/DS-SEA-08/data -name *.**v
+Documents/Siddharth/DS-SEA-08/data/airlines.csv
+Documents/Siddharth/DS-SEA-08/data/Airline_on_time_west_coast.csv
+Documents/Siddharth/DS-SEA-08/data/bank-additional.csv
+Documents/Siddharth/DS-SEA-08/data/bikeshare.csv
+Documents/Siddharth/DS-SEA-08/data/chipotle.tsv
+Documents/Siddharth/DS-SEA-08/data/citibike_feb2014.csv
+Documents/Siddharth/DS-SEA-08/data/drinks.csv
+Documents/Siddharth/DS-SEA-08/data/drones.csv
+Documents/Siddharth/DS-SEA-08/data/hitters.csv
+Documents/Siddharth/DS-SEA-08/data/icecream.csv
+Documents/Siddharth/DS-SEA-08/data/imdb_1000.csv
+Documents/Siddharth/DS-SEA-08/data/mtcars.csv
+Documents/Siddharth/DS-SEA-08/data/NBA_players_2015.csv
+Documents/Siddharth/DS-SEA-08/data/ozone.csv
+Documents/Siddharth/DS-SEA-08/data/pronto_cycle_share/2015_station_data.csv
+Documents/Siddharth/DS-SEA-08/data/pronto_cycle_share/2015_trip_data.csv
+Documents/Siddharth/DS-SEA-08/data/pronto_cycle_share/2015_weather_data.csv
+Documents/Siddharth/DS-SEA-08/data/rossmann.csv
+Documents/Siddharth/DS-SEA-08/data/rt_critics.csv
+Documents/Siddharth/DS-SEA-08/data/sms.tsv
+Documents/Siddharth/DS-SEA-08/data/stores.csv
+Documents/Siddharth/DS-SEA-08/data/syria.csv
+Documents/Siddharth/DS-SEA-08/data/time_series_train.csv
+Documents/Siddharth/DS-SEA-08/data/titanic.csv
+Documents/Siddharth/DS-SEA-08/data/ufo.csv
+Documents/Siddharth/DS-SEA-08/data/vehicles_test.csv
+Documents/Siddharth/DS-SEA-08/data/vehicles_train.csv
+Documents/Siddharth/DS-SEA-08/data/yelp.csv`
+
+<br> </br>
+*Here is another way to execute it:
+
+`User@DESKTOP-CPCB3KP MINGW64 ~/Documents/Siddharth/DS-SEA-08 (master)
+$ find . -name *.*sv
+./data/airlines.csv
+./data/Airline_on_time_west_coast.csv
+./data/bank-additional.csv
+./data/bikeshare.csv
+./data/chipotle.tsv
+./data/citibike_feb2014.csv
+./data/drinks.csv
+./data/drones.csv
+./data/hitters.csv
+./data/icecream.csv
+./data/imdb_1000.csv
+./data/mtcars.csv
+./data/NBA_players_2015.csv
+./data/ozone.csv
+./data/pronto_cycle_share/2015_station_data.csv
+./data/pronto_cycle_share/2015_trip_data.csv
+./data/pronto_cycle_share/2015_weather_data.csv
+./data/rossmann.csv
+./data/rt_critics.csv
+./data/sms.tsv
+./data/stores.csv
+./data/syria.csv
+./data/time_series_train.csv
+./data/titanic.csv
+./data/ufo.csv
+./data/vehicles_test.csv
+./data/vehicles_train.csv
+./data/yelp.csv
+./notebooks/GMapJson.csv`
