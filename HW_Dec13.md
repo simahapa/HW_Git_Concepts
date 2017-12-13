@@ -12,7 +12,7 @@ This is the HW for the  git concepts undertaken for the GA Data Science Course
 <br> Item_price: refers to the price of the item </br>
 <br>  </br>
 <br>  </br>
-2. 1.	How many orders do there appear to be?
+2. How many orders do there appear to be?
 <br>   </br>
 ### Answer:
 There are a  total of 1834 orders; the  command to perform the task is as follows
@@ -29,3 +29,13 @@ $ tail chipotle.tsv
 1834    1       Chicken Salad Bowl      [Fresh Tomato Salsa, [Fajita Vegetables, Pinto Beans, Guacamole, Lettuce]]      $11.25
 1834    1       Chicken Salad Bowl      [Fresh Tomato Salsa, [Fajita Vegetables, Lettuce]]      $8.75
 1834    1       Chicken Salad Bowl      [Fresh Tomato Salsa, [Fajita Vegetables, Pinto Beans, Lettuce]] $8.75'
+
+<br></br>
+
+3. How many lines are in this file?
+<br></br>
+The total number of lines in the data file is 4623 
+ <br> </br>
+User@DESKTOP-CPCB3KP MINGW64 ~/Documents/Siddharth/DS_Course
+$ wc -l chipotle.tsv
+4623 chipotle.tsv
