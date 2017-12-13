@@ -169,8 +169,10 @@ $ find . -name *.*sv
 
 
 <br></br>
-4.	Count the approximate number of occurrences of the word "dictionary" (regardless of case) across all files of [our class repo] (https://github.com/ga-students/DS-SEA-8).
-The approximate number of matches is #79 
+### 4.	Count the approximate number of occurrences of the word "dictionary" (regardless of case) across all files of [our class repo] (https://github.com/ga-students/DS-SEA-8).
+
+### Answer 
+### *The approximate number of matches is #79 
 
 `$ grep -r -i "dictionary" .|wc -l
 79`
@@ -256,3 +258,31 @@ The ones in capital are also included below
 ./DS_course/05_api.py:# extracting the year from the dictionary
 ./DS_course/05_api.py.txt:# decode the JSON response body into a dictionary
 ./DS_course/05_api.py.txt:# extracting the year from the dictionary`
+
+
+### 5.	Optional: Use the the command line to discover something "interesting" about the Chipotle data. Try using the commands from the "advanced" section!
+
+
+### Answer 
+
+Total lines :
+
+$ wc -l chipotle.tsv
+4623 chipotle.tsv
+
+;
+
+Where as unique lines are as follows
+
+`User@DESKTOP-CPCB3KP MINGW64 ~/Documents/Siddharth/DS-SEA-08/data (master)
+$ uniq -c chipotle.tsv >"test"
+$ wc -l test
+4589 test`
+
+`User@DESKTOP-CPCB3KP MINGW64 ~/Documents/Siddharth/DS-SEA-08/data (master)
+User@DESKTOP-CPCB3KP MINGW64 ~/Documents/Siddharth/DS-SEA-08/data (master)
+$ wc -l chipotle.tsv
+4623 chipotle.tsv`
+
+
+### Ideally I would like to  find the  highest and the lowest spend for the list of orders and what the  mean, median and standard deviation is. I could not process the remainder of the topics 
